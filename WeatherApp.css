@@ -1,0 +1,72 @@
+body
+{
+    display:flex;
+    background-image:url("https://i.pinimg.com/originals/44/dc/fe/44dcfe9cb7048fd7267bf0d24a09c831.jpg");
+    color:white;
+    padding-left: 450px;
+    padding-top: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#weather
+{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 500px;
+    height:400px;
+    border-radius: 25px;
+    background:black;
+    opacity: 0.8;
+}
+#description
+{
+    text-transform: capitalize;
+}
+#temp
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+#city
+{
+    border-radius: 25px;
+    width: 200px;
+    height:40px;
+    font-size:small;
+}
+#cityname
+{
+    font-size: 30px;
+}
+#temp
+{
+    font-size: 45px;
+}
+#btnsearch
+{
+    border-radius: 50px;
+    width:50px;
+    height:40px;
+    background-color:white;
+    color:white;
+    font-size:larger;
+}
+#btnsearch:hover
+{
+    border-radius: 50px;
+    width:50px;
+    height:40px;
+    background-color:lightcoral;
+    color:black;
+    font-size:larger;
+}
+#btnsearch:active
+{
+    border-radius: 50px;
+    width:50px;
+    height:40px;
+    background-color:rgb(3, 3, 81);
+    color:white;
+    font-size:larger;
+}
